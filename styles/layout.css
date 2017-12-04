@@ -1,16 +1,12 @@
 #a {
   height: 75px;
-  background-color: #111;
+  background-color: #2E5475;
   color: #fff;
 }
 
 #b {
   height: 150px;
-  background-color: #333;
-  color: #fff;
-}
-
-.c-d {
+  background-color: #f5c470;
 }
 
 #c, #d {
@@ -18,16 +14,11 @@
 }
 
 #c {
-  background-color: #222;
-  color: #fff;
+  background-color: #3982C1;
 }
 
 #d {
-  background-color: #888;
-}
-
-.e-f {
-
+  background-color: #89C3FF;
 }
 
 #e, #f, #g, #h {
@@ -40,11 +31,12 @@
 }
 
 #e {
-  background-color: #444;
+  background-color: #2E5475;
+  color: #fff;
 }
 
 #f {
-  background-color: #999;
+  background-color: #DE9B2B;
 }
 
 #g, #h {
@@ -53,14 +45,47 @@
 }
 
 #g {
-  background-color: #999;
+  background-color: #397CC1;
 }
 
 #h{
-  background-color: #444;
+  background-color: #2E5475;
+  color: #fff;
 }
 
 #i {
-  clear:both;
+  clear: both;
   height: 80px;
+  background-color: #89C3FF;
+}
+
+
+@media screen and (min-width: 800px) {
+  #a {
+    height: 100px;
+  }
+
+  #b {
+    float: left;
+    height: 600px;
+    width: 20.83%;
+  }
+
+  #c, #d {
+    float: left;
+    height: 200px;
+    width: 39.583%
+  }
+
+  #e, #f, #g, #h {
+    float: left;
+    width: 19.79%;
+  }
+
+  #i {
+    clear: none;
+    float: left;
+    height: 150px;
+    width: 79.167%
+  }
 }
