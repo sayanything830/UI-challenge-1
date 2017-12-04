@@ -17,3 +17,8 @@ h1 {
   right: 0;
   text-align: center;
 }
+
+@media screen and (min-width: 800px) {
+  body {
+    width: 960px;
+  }
