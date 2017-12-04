@@ -1,0 +1,19 @@
+body {
+  margin: 0 auto;
+  width: 480px;
+  background-color: #fff;
+  font-family: helvetica;
+}
+
+div {
+  position: relative;
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
